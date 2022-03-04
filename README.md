@@ -10,15 +10,15 @@ I may add more advanced JS commands for autofilling later on if they pop into my
 4. Copy the output from step 3 and paste it into the console of whatever website you are submitting a form on. If it doesn't do any changes, the website probably used generic css selectors like `input-4` that make pattern matching much harder (not dirty enough).
 
 ### Sample output from create_js.py
-        document.querySelectorAll("input[id*=school]").forEach((a) => a.value = "Purdue University");
-        document.querySelectorAll("input[class*=school]").forEach((a) => a.value = "Purdue University");
-        document.querySelectorAll("input[placeholder*=school]").forEach((a) => a.value = "Purdue University");
-        document.querySelectorAll("label[id*=school] + input").forEach((a) => a.value = "Purdue University");
-        document.querySelectorAll("label[class*=school] + input").forEach((a) => a.value = "Purdue University");
-        document.querySelectorAll("label[for*=school] + input").forEach((a) => a.value = "Purdue University"
-        document.querySelectorAll("input[id*=svasv]").forEach((a) => a.value = "asffvas");
-        document.querySelectorAll("input[class*=svasv]").forEach((a) => a.value = "asffvas");
-        document.querySelectorAll("input[placeholder*=svasv]").forEach((a) => a.value = "asffvas");
-        document.querySelectorAll("label[id*=svasv] + input").forEach((a) => a.value = "asffvas");
-        document.querySelectorAll("label[class*=svasv] + input").forEach((a) => a.value = "asffvas");
-        document.querySelectorAll("label[for*=svasv] + input").forEach((a) => a.value = "asffvas");
+    document.querySelectorAll("input[id*=school]").forEach((a) => a.value = "Purdue University");
+    document.querySelectorAll("input[class*=school]").forEach((a) => a.value = "Purdue University");
+    document.querySelectorAll("input[placeholder*=school]").forEach((a) => a.value = "Purdue University");
+    document.querySelectorAll("label[id*=school] + input").forEach((a) => a.value = "Purdue University");
+    document.querySelectorAll("label[class*=school] + input").forEach((a) => a.value = "Purdue University");
+    document.querySelectorAll("label[for*=school] + input").forEach((a) => a.value = "Purdue University"
+    document.querySelectorAll("input[id*=svasv]").forEach((a) => a.value = "asffvas");
+    document.querySelectorAll("input[class*=svasv]").forEach((a) => a.value = "asffvas");
+    document.querySelectorAll("input[placeholder*=svasv]").forEach((a) => a.value = "asffvas");
+    document.querySelectorAll("label[id*=svasv] + input").forEach((a) => a.value = "asffvas");
+    document.querySelectorAll("label[class*=svasv] + input").forEach((a) => a.value = "asffvas");
+    document.querySelectorAll("label[for*=svasv] + input").forEach((a) => a.value = "asffvas");
