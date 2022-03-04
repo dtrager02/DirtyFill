@@ -7,6 +7,6 @@ if __name__ == "__main__":
                 document.querySelectorAll(\"input[class*={key}]\").forEach((a) => a.value = \"{value}\");
                 document.querySelectorAll(\"input[placeholder*={key}]\").forEach((a) => a.value = \"{value}\");
                 document.querySelectorAll(\"label[id*={key}] + input\").forEach((a) => a.value = \"{value}\");
-                document.querySelectorAll(\"label[id*={key}] + input\").forEach((a) => a.value = \"{value}\");
-                document.querySelectorAll(\"label[id*={key}] + input\").forEach((a) => a.value = \"{value}\");
+                document.querySelectorAll(\"label[class*={key}] + input\").forEach((a) => a.value = \"{value}\");
+                document.querySelectorAll(\"label[for*={key}] + input\").forEach((a) => a.value = \"{value}\");
                 """ for key,value in zip(a.keys(),a.values())]))
